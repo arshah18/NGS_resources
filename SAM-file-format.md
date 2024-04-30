@@ -32,5 +32,5 @@ QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ 
 __Reference__ <br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)
 __Read also__ <br>
-[SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf)<br>
-→ [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file)<br>
+[SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf) <br>
+→ [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file) <br>
