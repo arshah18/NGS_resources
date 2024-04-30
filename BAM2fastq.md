@@ -17,7 +17,7 @@ __Using bam2fq__
 ```
 samtools bam2fq SAMPLE.bam > SAMPLE.fastq
 ```
-Paired-end reads:   '/1' or '/2' is added to the end of read names
+Paired-end reads:   '/1' or '/2' is added to the end of read names<br>
 _http://www.htslib.org/doc/samtools.html_
 
 __How to split a single .fastq file of paired-end reads into two separated files?__
