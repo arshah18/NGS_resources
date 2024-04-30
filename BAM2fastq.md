@@ -1,6 +1,6 @@
 ### SAMtools
-https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq#h.cym40tk1lm75<br>
-http://www.htslib.org/doc/samtools-fasta.html<br>
+_https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq#h.cym40tk1lm75<br>_
+_http://www.htslib.org/doc/samtools-fasta.html<br>_
 ##### Sort paired read alignment .bam file (sort by name -n)
 ```
 samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam
@@ -17,7 +17,7 @@ samtools fastq -@ 8 SAMPLE_sorted.bam \
 samtools bam2fq SAMPLE.bam > SAMPLE.fastq
 ```
 ##### Paired-end reads:   '/1' or '/2' is added to the end of read names
-http://www.htslib.org/doc/samtools.html
+_http://www.htslib.org/doc/samtools.html_
 ##### How to split a single .fastq file of paired-end reads into two separated files?
 Extracting reads ending with '/1' or '/2'
 ```
@@ -32,10 +32,10 @@ java -Xmx2g -jar Picard/SamToFastq.jar I=SAMPLE.bam F=SAMPLE_r1.fastq F2=SAMPLE_
 ```
 F2 to get two files for paired-end reads (R1 and R2)
 -Xmx2g   allows a maximum use of 2GB memory for the JVM
-http://broadinstitute.github.io/picard/command-line-overview.html#SamToFastq
+_http://broadinstitute.github.io/picard/command-line-overview.html#SamToFastq_
 
 ### bam2fastx
-http://manpages.ubuntu.com/manpages/quantal/man1/bam2fastx.1.html
+_http://manpages.ubuntu.com/manpages/quantal/man1/bam2fastx.1.html_
 
 ### Bedtools
 ```
@@ -46,10 +46,10 @@ paired-end reads:
 samtools sort -n input.bam -o input_sorted.bam   # sort reads by identifier-name (-n)
 bedtools bamtofastq -i input_sorted.bam -fq output_r1.fastq -fq2 output_r2.fastq
 ```
-http://bedtools.readthedocs.org/en/latest/content/tools/bamtofastq.html
+_http://bedtools.readthedocs.org/en/latest/content/tools/bamtofastq.html_
 
 ### Bamtools
-http://github.com/pezmaster31/bamtools
+_http://github.com/pezmaster31/bamtools_
 
-Reference
-https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq
+Reference<br>
+_https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq_
