@@ -2,14 +2,13 @@
 The Sequence Alignment/Map (SAM) is a file format to save alignment information of short reads mapped against reference sequences. It usually starts with a header section followed by alignment information as tab-separated lines for each read.<br>
 
 _Header section_<br>
-
 ```
 @HD    VN:1.3    SO:coordinate
 @SQ    SN:conticA    LN:443
 @SQ    SN:contigB    LN:1493
 @SQ    SN:contigC    LN:328
-```<br>
-_Tab-delimited read alignment information lines_ <br>
+```
+_Tab-delimited read alignment information lines_
 
 ```
 readID43GYAX15:7:1:1202:19894/1    256    contig43    613960    1    65M    *    0    0    CCAGCGCGAACGAAATCCGCATGCGTCTGGTCGTTGCACGGAACGGCGGCGGTGTGATGCACGGC    EDDEEDEE=EE?DE??DDDBADEBEFFFDBEFFEBCBC=?BEEEE@=:?::?7?:8-6?7?@??#    AS:i:0    XS:i:0  XN:i:0  XM:i:0  XO:i:0  XG:i:0  NM:i:0  MD:Z:65  YT:Z:UU
