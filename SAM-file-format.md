@@ -16,7 +16,7 @@ _Tab-delimited read alignment information lines_
 |readID43GYAX15:7:1:1202:19894/1|256|contig87|540849|1|65M|*|0|0|CCTGCACGAACGAAATCCGCATGCGTCTGGTCGTTGTACGGAACGGCGGTTGTGTGACGAACGGC|EDDEEDEE=EE?DE??DDDBADEBEFFFDBEFFEBCBC=?BEEEE@=:?::?7?:8-6?7?@??# AS:i:0  XS:i:0 XN:i:0  XM:i:0 XO:i:0  XG:i:0  NM:i:0|MD:Z:65|YT:Z:UU|
 
 __Meaning of columns__<br>
-QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ    QUAL    TAGS
+|QNAME|FLAG|RNAME|POS|MAPQ|CIGAR|RNEXT|PNEXT|TLEN|SEQ|QUAL|TAGS|
 1. Read Name
 2. SAM flag --> decode
 3. contig name or * for unmapped
