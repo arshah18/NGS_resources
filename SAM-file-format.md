@@ -9,7 +9,7 @@ _Header section_<br>
 @SQ    SN:contigC    LN:328
 ```
 _Tab-delimited read alignment information lines_
-``
+```
 readID43GYAX15:7:1:1202:19894/1    256    contig43    613960    1    65M    *    0    0    CCAGCGCGAACGAAATCCGCATGCGTCTGGTCGTTGCACGGAACGGCGGCGGTGTGATGCACGGC    EDDEEDEE=EE?DE??DDDBADEBEFFFDBEFFEBCBC=?BEEEE@=:?::?7?:8-6?7?@??#    AS:i:0    XS:i:0  XN:i:0  XM:i:0  XO:i:0  XG:i:0  NM:i:0  MD:Z:65  YT:Z:UU
 readID43GYAX15:7:1:1202:19894/1    272    contig32    21001    1    65M    *    0    0    GCCGGACGTCACACGGCCGCCGGGCCGGTCTACGACCAGACGCATGCGGATTTCGTTAGAGCCGG    #??@?7?6-8:?7?::?:=@EEEEB?=CBCBEFFEBDFFFEBEDABDDD??ED?EE=EEDEEDDE    AS:i:-5    XS:i:0   XN:i:0  XM:i:1   XO:i:0   XG:i:0   NM:i:1   MD:Z:42T22   YT:Z:UU
 readID43GYAX15:7:1:1202:19894/1    256    contig87    540849    1    65M    *    0    0    CCTGCACGAACGAAATCCGCATGCGTCTGGTCGTTGTACGGAACGGCGGTTGTGTGACGAACGGC    EDDEEDEE=EE?DE??DDDBADEBEFFFDBEFFEBCBC=?BEEEE@=:?::?7?:8-6?7?@??# AS:i:0  XS:i:0 XN:i:0  XM:i:0 XO:i:0  XG:i:0  NM:i:0    MD:Z:65    YT:Z:UU
@@ -29,7 +29,8 @@ QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ 
 11. Read Quality
 12. Additional information in TAG:TYPE:VALUE format
 <br>
-__Reference__
-Read also
-SAM Format Specification (PDF)
-→ How to filter reads using the SAM flags? (How to count the number of reads?)
+__Reference__<br>
+[SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)
+__Read also__<br>
+[SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf)<br>
+→ [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file)<br>
