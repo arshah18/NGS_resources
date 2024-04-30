@@ -17,7 +17,6 @@ readID43GYAX15:7:1:1202:19894/1    256    contig87    540849    1    65M    *   
 ```
 __Meaning of columns__<br>
 QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ    QUAL    TAGS
-```{r, attr.source='.numberLines'}
 1. Read Name
 2. SAM flag --> decode
 3. contig name or * for unmapped
@@ -30,9 +29,14 @@ QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ 
 10. Read Sequence
 11. Read Quality
 12. Additional information in TAG:TYPE:VALUE format<br>
-```
 __Reference__<br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)<br>
 __Read also__ <br>
 [SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf) <br>
 → [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file) <br>
+```{r, attr.source='.numberLines'}
+if (TRUE) {
+  x <- 1:10
+  x + 1
+}
+```
