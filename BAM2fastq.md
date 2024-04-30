@@ -1,6 +1,7 @@
 ### SAMtools
 _https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq#h.cym40tk1lm75<br>_
 _http://www.htslib.org/doc/samtools-fasta.html<br>_
+
 __Sort paired read alignment .bam file (sort by name -n)__
 ```
 samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam
