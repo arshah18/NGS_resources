@@ -20,5 +20,5 @@ __read more__<br>
 decode SAM bitcode flag number (meaning of flag bits)<br>
 http://broadinstitute.github.io/picard/explain-flags.html<br>
 
-${\color{red}-f}$
+$$${\color{red}-f}$$$
 \textcolor{red}{red}
