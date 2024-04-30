@@ -35,6 +35,8 @@ $12. Additional information in TAG:TYPE:VALUE format$<br>
 
 __Reference__<br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)<br>
+
 __Read also__ <br>
 [SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf) <br>
+
 → [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file) <br>
