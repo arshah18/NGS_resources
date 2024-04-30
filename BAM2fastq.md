@@ -3,12 +3,12 @@
 ### http://www.htslib.org/doc/samtools-fasta.html
 -----------------------------------------------------
 ### sort paired read alignment .bam file (sort by name -n)
-samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam
+```samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam```
 ### save fastq reads in separate R1 and R2 files
-samtools fastq -@ 8 SAMPLE_sorted.bam \
+```samtools fastq -@ 8 SAMPLE_sorted.bam \
     -1 SAMPLE_R1.fastq.gz \
     -2 SAMPLE_R2.fastq.gz \
-    -0 /dev/null -s /dev/null -n
+    -0 /dev/null -s /dev/null -n```
 -----------------------------------------------------
 ### Using bam2fq
 samtools bam2fq SAMPLE.bam > SAMPLE.fastq
