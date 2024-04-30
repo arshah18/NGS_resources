@@ -14,8 +14,8 @@ _options_<br>
   ```-F 260```  output primary aligned mapped reads<br>
                        read unmapped & not primary alignment criteria 3 & 9 are selected for exclusion<br>
                        bit 3 + bit 9 = 4 + 256 = 260<br>
-http://samtools.sourceforge.net/samtools.shtml
+http://samtools.sourceforge.net/samtools.shtml<br>
 
-read more
-decode SAM bitcode flag number (meaning of flag bits)
-http://broadinstitute.github.io/picard/explain-flags.html
+__read more__
+decode SAM bitcode flag number (meaning of flag bits)<br>
+http://broadinstitute.github.io/picard/explain-flags.html<br>
