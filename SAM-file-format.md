@@ -17,6 +17,7 @@ readID43GYAX15:7:1:1202:19894/1    256    contig87    540849    1    65M    *   
 ```
 __Meaning of columns__<br>
 QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ    QUAL    TAGS
+```{r, attr.source='.numberLines'}
 1. Read Name
 2. SAM flag --> decode
 3. contig name or * for unmapped
