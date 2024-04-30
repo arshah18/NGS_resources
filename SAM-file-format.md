@@ -1,4 +1,4 @@
-$$ __SAM file format__ $$
+$$**SAM file format**$$
 The Sequence Alignment/Map (SAM) is a file format to save alignment information of short reads mapped against reference sequences. It usually starts with a header section followed by alignment information as tab separated lines for each read.
 Header section
 @HD    VN:1.3    SO:coordinate
