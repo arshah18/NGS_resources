@@ -28,8 +28,7 @@ QNAME    FLAG    RNAME    POS    MAPQ    CIGAR    RNEXT    PNEXT    TLEN    SEQ 
 9. Template length
 10. Read Sequence
 11. Read Quality
-12. Additional information in TAG:TYPE:VALUE format
-<br>
+12. Additional information in TAG:TYPE:VALUE format<br>
 __Reference__<br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)<br>
 __Read also__ <br>
