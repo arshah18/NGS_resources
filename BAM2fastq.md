@@ -1,24 +1,24 @@
 ### SAMtools
 https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq#h.cym40tk1lm75<br>
 http://www.htslib.org/doc/samtools-fasta.html<br>
-### Sort paired read alignment .bam file (sort by name -n)
+##### Sort paired read alignment .bam file (sort by name -n)
 ```
 samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam
 ```
-### Save fastq reads in separate R1 and R2 files
+##### Save fastq reads in separate R1 and R2 files
 ```
 samtools fastq -@ 8 SAMPLE_sorted.bam \
     -1 SAMPLE_R1.fastq.gz \
     -2 SAMPLE_R2.fastq.gz \
     -0 /dev/null -s /dev/null -n
 ```
-### Using bam2fq
+##### Using bam2fq
 ```
 samtools bam2fq SAMPLE.bam > SAMPLE.fastq
 ```
-### Paired-end reads:   '/1' or '/2' is added to the end of read names
+##### Paired-end reads:   '/1' or '/2' is added to the end of read names
 http://www.htslib.org/doc/samtools.html
-#### How to split a single .fastq file of paired-end reads into two separated files?
+##### How to split a single .fastq file of paired-end reads into two separated files?
 Extracting reads ending with '/1' or '/2'
 ```
 cat SAMPLE.fastq | grep '^@.*/1$' -A 3 --no-group-separator > SAMPLE_r1.fastq
@@ -50,3 +50,6 @@ http://bedtools.readthedocs.org/en/latest/content/tools/bamtofastq.html
 
 ### Bamtools
 http://github.com/pezmaster31/bamtools
+
+Reference
+https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq
