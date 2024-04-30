@@ -43,7 +43,7 @@ _http://manpages.ubuntu.com/manpages/quantal/man1/bam2fastx.1.html_
 ```
 bedtools bamtofastq -i input.bam -fq output.fastq
 ```
-paired-end reads:
+_paired-end reads:_
 ```
 samtools sort -n input.bam -o input_sorted.bam   # sort reads by identifier-name (-n)
 bedtools bamtofastq -i input_sorted.bam -fq output_r1.fastq -fq2 output_r2.fastq
