@@ -11,8 +11,8 @@
     -0 /dev/null -s /dev/null -n```
 -----------------------------------------------------
 ### Using bam2fq
-samtools bam2fq SAMPLE.bam > SAMPLE.fastq
-paired-end reads:   '/1' or '/2' is added to the end of read names
+```samtools bam2fq SAMPLE.bam > SAMPLE.fastq```
+### paired-end reads:   '/1' or '/2' is added to the end of read names
 ### http://www.htslib.org/doc/samtools.html
 -----------------------------------------------------
 ### How to split a single .fastq file of paired-end reads into two separated files?
