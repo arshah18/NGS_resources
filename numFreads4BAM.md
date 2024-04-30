@@ -8,7 +8,7 @@ samtools view -c SAMPLE.bam
   76382345
 
 _options_<br>
-  &emsp;&emsp;```diff-c```  count reads and print the total number<br>
+  &emsp;&emsp;```diff -c```  count reads and print the total number<br>
   &emsp;&emsp;```-f bitcode```  output reads that fulfill the checked _'bitcode'_ criteria, see SAM bitcode fields<br>
   &emsp;&emsp;```-F bitcode```  exclude reads that match one or more checked _'bitcode'_ criteria, see SAM bitcode fields<br>
   &emsp;&emsp;```-F 260```  output primary aligned mapped reads<br>
