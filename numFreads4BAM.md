@@ -19,5 +19,5 @@ http://samtools.sourceforge.net/samtools.shtml<br>
 __read more__<br>
 decode SAM bitcode flag number (meaning of flag bits)<br>
 http://broadinstitute.github.io/picard/explain-flags.html<br>
-
-${\color{red}-f}$
+__Reference__
+[Number of reads in bam file](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file)
