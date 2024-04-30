@@ -22,16 +22,16 @@ __Meaning of columns__<br>
 
 $1. Read Name$<br>
 $2. SAM flag --> decode$<br>
-3. contig name or * for unmapped
-4. mapped position of base 1 of a read on the reference sequence
-5. MAPQ mapping quality
-6. CIGAR string describing insertions and deletions
-7. Name of mate
-8. Position of mate
-9. Template length
-10. Read Sequence
-11. Read Quality
-12. Additional information in TAG:TYPE:VALUE format<br>
+$3. contig name or * for unmapped$<br>
+$4. mapped position of base 1 of a read on the reference sequence$<br>
+$5. MAPQ mapping quality$<br>
+$6. CIGAR string describing insertions and deletions$<br>
+$7. Name of mate$<br>
+$8. Position of mate$<br>
+$9. Template length$<br>
+$10. Read Sequence$<br>
+$11. Read Quality$<br>
+$12. Additional information in TAG:TYPE:VALUE format$<br>
 
 __Reference__<br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)<br>
