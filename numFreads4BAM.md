@@ -2,7 +2,7 @@
 __How to count the number of mapped reads in a BAM or SAM file?__
 get the total number of reads of a BAM file (may include unmapped and duplicated multi-aligned reads)
 
-```diff
+```
 samtools view -c SAMPLE.bam
 ```
   76382345
