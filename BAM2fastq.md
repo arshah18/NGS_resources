@@ -6,20 +6,21 @@ __Sort paired read alignment .bam file (sort by name -n)__
 ```
 samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam
 ```
-##### Save fastq reads in separate R1 and R2 files
+__Save fastq reads in separate R1 and R2 files__
 ```
 samtools fastq -@ 8 SAMPLE_sorted.bam \
     -1 SAMPLE_R1.fastq.gz \
     -2 SAMPLE_R2.fastq.gz \
     -0 /dev/null -s /dev/null -n
 ```
-##### Using bam2fq
+__Using bam2fq__
 ```
 samtools bam2fq SAMPLE.bam > SAMPLE.fastq
 ```
-##### Paired-end reads:   '/1' or '/2' is added to the end of read names
+__Paired-end reads:   '/1' or '/2' is added to the end of read names__
 _http://www.htslib.org/doc/samtools.html_
-##### How to split a single .fastq file of paired-end reads into two separated files?
+
+__How to split a single .fastq file of paired-end reads into two separated files?__
 Extracting reads ending with '/1' or '/2'
 ```
 cat SAMPLE.fastq | grep '^@.*/1$' -A 3 --no-group-separator > SAMPLE_r1.fastq
