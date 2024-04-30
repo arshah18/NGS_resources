@@ -1,7 +1,6 @@
 ### SAMtools
 https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq#h.cym40tk1lm75<br>
 http://www.htslib.org/doc/samtools-fasta.html<br>
-<br>
 ### sort paired read alignment .bam file (sort by name -n)
 ```samtools sort -n SAMPLE.bam -o SAMPLE_sorted.bam```
 ### save fastq reads in separate R1 and R2 files
@@ -9,7 +8,7 @@ http://www.htslib.org/doc/samtools-fasta.html<br>
     -1 SAMPLE_R1.fastq.gz \
     -2 SAMPLE_R2.fastq.gz \
     -0 /dev/null -s /dev/null -n```
-#-----------------------------------------------------
+
 ### Using bam2fq
 ```samtools bam2fq SAMPLE.bam > SAMPLE.fastq```
 ### paired-end reads:   '/1' or '/2' is added to the end of read names
