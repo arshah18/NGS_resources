@@ -17,6 +17,7 @@ _Tab-delimited read alignment information lines_
 
 __Meaning of columns__<br>
 |QNAME|FLAG|RNAME|POS|MAPQ|CIGAR|RNEXT|PNEXT|TLEN|SEQ|QUAL|TAGS|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
 1. Read Name
 2. SAM flag --> decode
 3. contig name or * for unmapped
@@ -29,6 +30,7 @@ __Meaning of columns__<br>
 10. Read Sequence
 11. Read Quality
 12. Additional information in TAG:TYPE:VALUE format<br>
+
 __Reference__<br>
 [SAM file format](https://www.metagenomics.wiki/tools/samtools/bam-sam-file-format)<br>
 __Read also__ <br>
