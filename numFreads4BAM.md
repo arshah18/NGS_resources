@@ -16,6 +16,6 @@ _options_<br>
                       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bit 3 + bit 9 = 4 + 256 = 260<br>
 http://samtools.sourceforge.net/samtools.shtml<br>
 
-__read more__
+__read more__<br>
 decode SAM bitcode flag number (meaning of flag bits)<br>
 http://broadinstitute.github.io/picard/explain-flags.html<br>
