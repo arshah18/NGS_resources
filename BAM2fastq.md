@@ -53,5 +53,5 @@ _http://bedtools.readthedocs.org/en/latest/content/tools/bamtofastq.html_
 ### Bamtools
 _http://github.com/pezmaster31/bamtools_
 
-Reference<br>
+__Reference__<br>
 _https://www.metagenomics.wiki/tools/samtools/converting-bam-to-fastq_
