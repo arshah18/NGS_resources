@@ -9,7 +9,7 @@ samtools view -c SAMPLE.bam
 
 _options_<br>
   &emsp;&emsp;```-c```  count reads and print the total number<br>
-  &emsp;&emsp;```$${\color{red}-f}$$ bitcode```  output reads that fulfill the checked _'bitcode'_ criteria, see SAM bitcode fields[http://broadinstitute.github.io/picard/explain-flags.html]<br>
+  &emsp;&emsp;```$${\color{red}-f}$$ bitcode```  output reads that fulfill the checked _'bitcode'_ criteria, see [SAM bitcode fields](http://broadinstitute.github.io/picard/explain-flags.html)<br>
   &emsp;&emsp;```-F bitcode```  exclude reads that match one or more checked _'bitcode'_ criteria, see SAM bitcode fields<br>
   &emsp;&emsp;```-F 260```  output primary aligned mapped reads<br>
                       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_read unmapped & not primary alignment criteria_ 3 & 9 are selected for exclusion<br>
