@@ -20,8 +20,8 @@ __Meaning of columns__<br>
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |QNAME|FLAG|RNAME|POS|MAPQ|CIGAR|RNEXT|PNEXT|TLEN|SEQ|QUAL|TAGS|
 
-$1. Read Name$
-2. SAM flag --> decode
+$1. Read Name$<br>
+$2. SAM flag --> decode$<br>
 3. contig name or * for unmapped
 4. mapped position of base 1 of a read on the reference sequence
 5. MAPQ mapping quality
