@@ -34,9 +34,3 @@ __Reference__<br>
 __Read also__ <br>
 [SAM Format Specification (PDF)](http://samtools.github.io/hts-specs/SAMv1.pdf) <br>
 → [How to filter reads using the SAM flags? (How to count the number of reads?)](https://www.metagenomics.wiki/tools/samtools/number-of-reads-in-bam-file) <br>
-```{r, attr.source='.numberLines'}
-if (TRUE) {
-  x <- 1:10
-  x + 1
-}
-```
