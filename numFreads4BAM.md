@@ -7,7 +7,7 @@ samtools view -c SAMPLE.bam
 ```
   76382345
 
-_options_
+_options_<br>
   ```-c```  count reads and print the total number
   ```-f bitcode```  output reads that fulfill the checked 'bitcode' criteria, see SAM bitcode fields
   ```-F bitcode```  exclude reads that match one or more checked 'bitcode' criteria, see SAM bitcode fields
